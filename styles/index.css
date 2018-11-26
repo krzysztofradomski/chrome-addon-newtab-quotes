@@ -1,0 +1,52 @@
+body, #content {
+    width: 100vw;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    background: rgba(0,0,0,0.2);
+}
+#content {
+    background-position: center center;
+    background-size: cover;
+    font-family: monospace;
+    text-align: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#time, #quote {
+    font-size: 6em;
+    display: none;
+    opacity: 0;
+    transition: opacity 2s;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#choice {
+    border: 2px solid white;
+    padding: 20px;
+    border-radius: 10%;
+    font-size: 2em;
+    opacity: 1;
+    transition: opacity 2s;
+    background: rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+#choice p, #choice button {
+    display: block
+}
+
+#choice button {
+    border: 2px solid white;
+    background: transparent;
+    border-radius: 10%;
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px 0;
+}

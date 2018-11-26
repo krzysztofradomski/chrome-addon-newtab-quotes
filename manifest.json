@@ -1,0 +1,12 @@
+{
+ 	"manifest_version": 2,
+ 	"name": "Dziwnym nie jest",
+ 	"version": "1.0",
+	"description": "Piękne krajobrazy i demotywujące cytaty.",
+	"icons": {
+		"16": "images/world-1.png"
+	},
+  	"chrome_url_overrides" : {
+    	"newtab": "index.html"
+	}
+}
